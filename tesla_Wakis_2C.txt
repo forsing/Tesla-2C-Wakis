@@ -1,0 +1,104 @@
+Tesla Scalar - GRUPA 2 / 2C (Wakis 3D EM FIT: talas + prava frekvencija)
+CSV: /Users/4c/Desktop/GHQ/data/loto7hh_4630_k46.csv
+Izvlacenja: 4630 | Seed: 39 | tezine: talas=0.7 freq=0.3
+
+Brojevi po kombinovanom skoru (tezinski talas + frekvencija):
+  24  skor=0.8541666667  freq=0.02592  (pojava=840)
+  23  skor=0.7354933135  freq=0.02792  (pojava=905)
+  35  skor=0.6452173395  freq=0.02601  (pojava=843)
+  21  skor=0.6408397386  freq=0.02549  (pojava=826)
+  28  skor=0.6238711571  freq=0.02530  (pojava=820)
+  39  skor=0.6080282434  freq=0.02620  (pojava=849)
+  38  skor=0.5995116427  freq=0.02598  (pojava=842)
+  08  skor=0.5991339730  freq=0.02808  (pojava=910)
+  22  skor=0.5527000557  freq=0.02626  (pojava=851)
+  16  skor=0.5415414573  freq=0.02583  (pojava=837)
+  26  skor=0.5312546390  freq=0.02681  (pojava=869)
+  32  skor=0.5290328076  freq=0.02644  (pojava=857)
+  10  skor=0.5244484432  freq=0.02607  (pojava=845)
+  09  skor=0.5209497433  freq=0.02601  (pojava=843)
+  25  skor=0.4979985284  freq=0.02589  (pojava=839)
+  20  skor=0.4964809282  freq=0.02376  (pojava=770)
+  07  skor=0.4917498523  freq=0.02598  (pojava=842)
+  33  skor=0.4855479402  freq=0.02635  (pojava=854)
+  37  skor=0.4792704905  freq=0.02654  (pojava=860)
+  03  skor=0.4787823236  freq=0.02546  (pojava=825)
+  12  skor=0.4682248430  freq=0.02499  (pojava=810)
+  19  skor=0.4466365061  freq=0.02508  (pojava=813)
+  05  skor=0.4405201362  freq=0.02555  (pojava=828)
+  18  skor=0.4362920700  freq=0.02530  (pojava=820)
+  06  skor=0.4290748642  freq=0.02518  (pojava=816)
+  31  skor=0.4224307429  freq=0.02561  (pojava=830)
+  36  skor=0.4177063332  freq=0.02425  (pojava=786)
+  11  skor=0.4074074813  freq=0.02654  (pojava=860)
+  15  skor=0.4013526998  freq=0.02459  (pojava=797)
+  34  skor=0.3919670235  freq=0.02694  (pojava=873)
+  29  skor=0.3859855993  freq=0.02616  (pojava=848)
+  17  skor=0.3645265291  freq=0.02363  (pojava=766)
+  13  skor=0.3569166781  freq=0.02555  (pojava=828)
+  04  skor=0.3560611792  freq=0.02505  (pojava=812)
+  02  skor=0.3494837886  freq=0.02542  (pojava=824)
+  27  skor=0.3066569560  freq=0.02431  (pojava=788)
+  01  skor=0.2606403526  freq=0.02431  (pojava=788)
+  30  skor=0.1471666715  freq=0.02428  (pojava=787)
+  14  skor=0.0895833333  freq=0.02496  (pojava=809)
+
+Tabela pravih frekvencija (opadajuce po freq, pa po broju):
+  broj | pojava |   udeo
+  -----+--------+--------
+   08  |   910  | 0.02808
+   23  |   905  | 0.02792
+   34  |   873  | 0.02694
+   26  |   869  | 0.02681
+   37  |   860  | 0.02654
+   11  |   860  | 0.02654
+   32  |   857  | 0.02644
+   33  |   854  | 0.02635
+   22  |   851  | 0.02626
+   39  |   849  | 0.02620
+   29  |   848  | 0.02616
+   10  |   845  | 0.02607
+   35  |   843  | 0.02601
+   09  |   843  | 0.02601
+   38  |   842  | 0.02598
+   07  |   842  | 0.02598
+   24  |   840  | 0.02592
+   25  |   839  | 0.02589
+   16  |   837  | 0.02583
+   31  |   830  | 0.02561
+   13  |   828  | 0.02555
+   05  |   828  | 0.02555
+   21  |   826  | 0.02549
+   03  |   825  | 0.02546
+   02  |   824  | 0.02542
+   28  |   820  | 0.02530
+   18  |   820  | 0.02530
+   06  |   816  | 0.02518
+   19  |   813  | 0.02508
+   04  |   812  | 0.02505
+   12  |   810  | 0.02499
+   14  |   809  | 0.02496
+   15  |   797  | 0.02459
+   27  |   788  | 0.02431
+   01  |   788  | 0.02431
+   30  |   787  | 0.02428
+   36  |   786  | 0.02425
+   20  |   770  | 0.02376
+   17  |   766  | 0.02363
+  ukupno pojava: 32410
+
+Predlozene kombinacije (rangirane po skoru kombinacije):
+  01. 07 09 13 22 23 24 32  skor_komb=4.0410091171
+  02. 09 10 21 23 26 31 38  skor_komb=3.9749282633
+  03. 16 24 25 26 28 31 33  skor_komb=3.9568111315
+  04. 02 10 16 21 23 33 39  skor_komb=3.8853829246
+  05. 08 17 22 24 31 32 33  skor_komb=3.8075387152
+  06. 06 11 12 19 32 35 39  skor_komb=3.5336220850
+  07. 05 10 23 26 29 31 36  skor_komb=3.4578392074
+  08. 09 10 15 21 22 29 34  skor_komb=3.4182433035
+  09. 05 07 13 28 29 37 39  skor_komb=3.3863421569
+  10. 01 05 07 13 14 26 39  skor_komb=2.7786932349
+
+Slike talasa/polja:
+  PNG: /Users/4c/Desktop/GHQ/Tesla/tesla_Wakis_2C.png
+  JPG: /Users/4c/Desktop/GHQ/Tesla/tesla_Wakis_2C.jpg
