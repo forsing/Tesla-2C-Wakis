@@ -200,13 +200,13 @@ CSV: /data/loto7hh_4630_k46.csv | Izvlacenja: 4630 | tezine: talas=0.7 freq=0.3
 
 Top 10 brojeva po kombinovanom skoru (tezinski talas + frekvencija):
   24  skor=0.8541666667  freq=0.02592  (pojava=840)
-  23  skor=0.7354933135  freq=0.02792  (pojava=905)
+   x  skor=0.7354933135  freq=0.02792  (pojava=905)
   35  skor=0.6452173395  freq=0.02601  (pojava=843)
-  21  skor=0.6408397386  freq=0.02549  (pojava=826)
+   y  skor=0.6408397386  freq=0.02549  (pojava=826)
   28  skor=0.6238711571  freq=0.02530  (pojava=820)
-  39  skor=0.6080282434  freq=0.02620  (pojava=849)
+   z  skor=0.6080282434  freq=0.02620  (pojava=849)
   38  skor=0.5995116427  freq=0.02598  (pojava=842)
-  08  skor=0.5991339730  freq=0.02808  (pojava=910)
+   x  skor=0.5991339730  freq=0.02808  (pojava=910)
   22  skor=0.5527000557  freq=0.02626  (pojava=851)
   16  skor=0.5415414573  freq=0.02583  (pojava=837)
 
@@ -215,23 +215,23 @@ Tabela pravih frekvencija (opadajuce po freq, pa po broju):
   broj | pojava |   udeo
   -----+--------+--------
    08  |   910  | 0.02808
-   23  |   905  | 0.02792
+    x  |   905  | 0.02792
    34  |   873  | 0.02694
-   26  |   869  | 0.02681
+    y  |   869  | 0.02681
    37  |   860  | 0.02654
-   11  |   860  | 0.02654
+    z  |   860  | 0.02654
    32  |   857  | 0.02644
-   33  |   854  | 0.02635
+    x  |   854  | 0.02635
    22  |   851  | 0.02626
-   39  |   849  | 0.02620
+    y  |   849  | 0.02620
    29  |   848  | 0.02616
-   10  |   845  | 0.02607
+    z  |   845  | 0.02607
    35  |   843  | 0.02601
-   09  |   843  | 0.02601
+    x  |   843  | 0.02601
    38  |   842  | 0.02598
-   07  |   842  | 0.02598
+    y  |   842  | 0.02598
    24  |   840  | 0.02592
-   25  |   839  | 0.02589
+    z  |   839  | 0.02589
    16  |   837  | 0.02583
    31  |   830  | 0.02561
    13  |   828  | 0.02555
@@ -257,16 +257,16 @@ Tabela pravih frekvencija (opadajuce po freq, pa po broju):
 
 
 Predlozene kombinacije (rangirane po skoru kombinacije):
-  01. 07 09 13 22 23 24 32  skor_komb=4.0410091171
-  02. 09 10 21 23 26 31 38  skor_komb=3.9749282633
-  03. 16 24 25 26 28 31 33  skor_komb=3.9568111315
-  04. 02 10 16 21 23 33 39  skor_komb=3.8853829246
-  05. 08 17 22 24 31 32 33  skor_komb=3.8075387152
-  06. 06 11 12 19 32 35 39  skor_komb=3.5336220850
-  07. 05 10 23 26 29 31 36  skor_komb=3.4578392074
-  08. 09 10 15 21 22 29 34  skor_komb=3.4182433035
-  09. 05 07 13 28 29 37 39  skor_komb=3.3863421569
-  10. 01 05 07 13 14 26 39  skor_komb=2.7786932349
+  01. 07 x 13 y 23 z 32  skor_komb=4.0410091171
+  02. 09 x 21 y 26 z 38  skor_komb=3.9749282633
+  03. 16 x 25 y 28 z 33  skor_komb=3.9568111315
+  04. 02 x 16 y 23 z 39  skor_komb=3.8853829246
+  05. 08 x 22 y 31 z 33  skor_komb=3.8075387152
+  06. 06 x 12 y 32 z 39  skor_komb=3.5336220850
+  07. 05 x 23 y 29 z 36  skor_komb=3.4578392074
+  08. 09 x 15 y 22 z 34  skor_komb=3.4182433035
+  09. 05 x 13 y 29 z 39  skor_komb=3.3863421569
+  10. 01 x 07 y 14 z 39  skor_komb=2.7786932349
 
 Sacuvano: /Tesla/tesla_Wakis_2C.txt
 """
@@ -311,9 +311,9 @@ pravi 3D EM solver
 
 Novi favorit broj: 24 (#1, skor 0.854) iako mu je frekvencija srednja (840) → čist talasni efekat.
 23 je #2 i tu se talas i frekvencija slažu (frekvencijski #2).
-28, 38, 21 su podignuti talasom (frekvencijski ispod proseka).
+28, x, 21 su podignuti talasom (frekvencijski ispod proseka).
 34, koji je dominirao u 1 i 2A, ovde nije u top 10 → Wakis daje zaista nezavisan signal.
-Favorit 2C: 07 09 13 22 23 24 32 (skor_komb = 4.0410).
+Favorit 2C: 07 x 13 y 23 z 32 (skor_komb = 4.0410).
 
 Imam sad 4 nezavisna motora (1, 2A, 2B, 2C) — svaki daje svoj potpis, a struktura je svuda ista. 
 """
@@ -337,14 +337,14 @@ Tesla 1: blag 1D talas
 2B: EM potencijal naboja
 2C: pravi 3D EM longitudinalni signal
 
-Top brojevi: 24 · 23 · 35 · 21 · 28 · 39 · 38 · 08 · 22 · 16
+Top brojevi: 24 · x · 35 · y · 28 · z · 38 · x · 22 · 16
 
 24 je #1, a frekvencijski je tek sredina (840) → jak talasni signal.
 23 je #2 i frekvencijski je takođe jak (905) → tu se talas i frekvencija poklapaju.
-28, 21, 38 su podignuti talasom, ne frekvencijom.
+28, x, 38 su podignuti talasom, ne frekvencijom.
 34, dominantan u Tesla 1 i 2A, ovde nije top 10 → Wakis ne kopira prethodne modele.
 08 ostaje prisutan, ali nije vodeći — frekvencija mu pomaže, ali talas ga ne stavlja na vrh.
-Favorit kombinacija 2C: 07 09 13 22 23 24 32 skor_komb = 4.0410
+Favorit kombinacija 2C: 07 x 13 y 23 z 32 skor_komb = 4.0410
 
 Zaključak: 2C je najfizičkiji i najbliži Teslinom SLW smeru jer koristi 3D EM polje i longitudinalnu komponentu. 
 Njegov rezultat treba posebno čuvati kao „teški model". 
